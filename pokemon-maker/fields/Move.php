@@ -13,7 +13,7 @@ class Move implements PokemonDataField {
 	static $FirePunch = null;
 	static $IcePunch = null;
 	static $ThunderPunch = null;
-    static $Scratch = null; 	
+	static $Scratch = null; 	
 	static $Vicegrip = null;
 	static $Guillotine = null;
 	static $RazorWind = null;
@@ -22,9 +22,9 @@ class Move implements PokemonDataField {
 	static $Gust = null;   
 	static $WingAttack = null;  
 	static $Whirlwind = null;
-    static $Fly  = null;
-    static $Bind = null;
-    static $Slam = null;              
+	static $Fly  = null;
+	static $Bind = null;
+	static $Slam = null;              
 	static $VineWhip = null;          
 	static $Stomp = null;             
 	static $DoubleKick = null;        
@@ -346,7 +346,7 @@ class Move implements PokemonDataField {
 		self::$Struggle  	= new Move("0xA5", "Struggle");
 
 		self::$map = array (
-            "Nothing" => self::$Nothing,
+			"Nothing" => self::$Nothing,
 			"Pound" => self::$Pound,
 			"KarateChop" => self::$KarateChop,
 			"DoubleSlap" => self::$DoubleSlap,
@@ -356,12 +356,12 @@ class Move implements PokemonDataField {
 			"FirePunch" => self::$FirePunch,
 			"IcePunch" => self::$IcePunch,
 			"ThunderPunch" => self::$ThunderPunch,
-            "Scratch" => self::$Scratch,
+			"Scratch" => self::$Scratch,
 			"Vicegrip" => self::$Vicegrip,
 		 	"Guillotine" => self::$Guillotine,
 			"RazorWind" => self::$RazorWind,
 		  	"SwordsDance" => self::$SwordsDance,
-            "Cut" => self::$Cut,
+		  	"Cut" => self::$Cut,
 			"Gust" => self::$Gust,
 			"WingAttack" => self::$WingAttack,
 			"Whirlwind" => self::$Whirlwind,
@@ -420,7 +420,7 @@ class Move implements PokemonDataField {
 			"MegaDrain" => self::$MegaDrain,
 			"LeechSeed" => self::$LeechSeed,
 			"Growth" => self::$Growth,
-			"RazorLeaf" => self::$RazorWind,
+			"RazorLeaf" => self::$RazorLeaf,
 			"SolarBeam" => self::$SolarBeam,
 			"PoisonPowder" => self::$PoisonPowder,
 			"StunSpore" => self::$StunSpore,
@@ -511,7 +511,7 @@ class Move implements PokemonDataField {
 			"Slash" => self::$Slash,
 			"Substitute" => self::$Substitute,
 			"Struggle" => self::$Struggle,
-        );
+        	);
 	}
 	public static function get($element) {
         if($element == null)
